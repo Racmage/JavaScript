@@ -22,3 +22,15 @@ console.log(factorial(3));
 const sumarFuncionFlecha =(nu1,nu2) => nu1+nu2;
 resultado1= sumarFuncionFlecha(3,4)
 console.log(resultado1)
+//////////////////////////////////////////////////////
+var u=10;
+function foo(){
+    var v=20
+    function bar(){
+        var z=15;
+        var output=u+v+z;
+        return output;
+    }
+    return bar();
+}
+console.log(foo());
